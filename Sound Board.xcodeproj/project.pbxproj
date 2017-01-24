@@ -13,6 +13,7 @@
 		9925AF0D1E365BB800E7DDBF /* Sound_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9925AF0B1E365BB800E7DDBF /* Sound_Board.xcdatamodeld */; };
 		9925AF0F1E365BB800E7DDBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9925AF0E1E365BB800E7DDBF /* Assets.xcassets */; };
 		9925AF121E365BB800E7DDBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9925AF101E365BB800E7DDBF /* LaunchScreen.storyboard */; };
+		9925AF1A1E36617C00E7DDBF /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9925AF191E36617C00E7DDBF /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9925AF0E1E365BB800E7DDBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9925AF111E365BB800E7DDBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9925AF131E365BB800E7DDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9925AF191E36617C00E7DDBF /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				9925AF041E365BB800E7DDBF /* AppDelegate.swift */,
 				9925AF061E365BB800E7DDBF /* ViewController.swift */,
+				9925AF191E36617C00E7DDBF /* SoundViewController.swift */,
 				9925AF081E365BB800E7DDBF /* Main.storyboard */,
 				9925AF0E1E365BB800E7DDBF /* Assets.xcassets */,
 				9925AF101E365BB800E7DDBF /* LaunchScreen.storyboard */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					9925AF001E365BB800E7DDBF = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = J4Q427424J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9925AF1A1E36617C00E7DDBF /* SoundViewController.swift in Sources */,
 				9925AF0D1E365BB800E7DDBF /* Sound_Board.xcdatamodeld in Sources */,
 				9925AF071E365BB800E7DDBF /* ViewController.swift in Sources */,
 				9925AF051E365BB800E7DDBF /* AppDelegate.swift in Sources */,
@@ -264,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4Q427424J;
 				INFOPLIST_FILE = "Sound Board/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "adratech.Sound-Board";
@@ -276,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4Q427424J;
 				INFOPLIST_FILE = "Sound Board/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "adratech.Sound-Board";
